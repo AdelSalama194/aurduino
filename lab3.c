@@ -1,10 +1,12 @@
 #include <stdio.h>
 void main(){
-	int x,y;
-	printf("please enter the first number ");
+	int x;
+	printf("enter your number");
 	scanf(" %d", &x);
-	printf("please enter the second number ");
-	scanf(" %d", &y);
-	printf("the sum =%d\n",x+y);
-	printf("the multipliation =%d",x*y);
+	if(x%2 ==0){
+		printf("the number is even");
+	}
+	else{
+		printf("the number is odd");
+	}
 }
